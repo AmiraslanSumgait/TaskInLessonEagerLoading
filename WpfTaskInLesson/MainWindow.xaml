@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfTaskInLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTaskInLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid HorizontalAlignment="Left" Width="908">
+        <Label Content="Categories" FontSize="25" HorizontalAlignment="Left" Margin="42,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="Products" FontSize="25" HorizontalAlignment="Left" Margin="434,26,0,0" VerticalAlignment="Top"/>
+        <DataGrid Name="datagridCategories" Margin="10,117,489,10" SelectionChanged="datagridCategories_SelectionChanged"/>
+        <DataGrid x:Name="datagridProducts" Margin="434,117,56,10"/>
+
+
+    </Grid>
+</Window>
